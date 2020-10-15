@@ -1,0 +1,118 @@
+header, footer, section, nav, article {  
+    display: block;  
+}
+
+/* SET SOME properties for the BODY
+margin auto gets you a centred web page*/
+BODY {
+	margin: 0 auto;  
+	width: 940px; 
+	font-family: Georgia;
+	font-size: 13px;
+}
+
+H1 {
+text-align: center;
+color: black;
+}
+
+H2 {
+	text-align: center;
+	color: black;
+}
+
+
+
+HEADER#Banner {
+	width: 940px;
+	height: 700px;
+	margin: 50px auto;
+	border: 40px solid #000000;
+	text-align: center;
+	background-color: blue;
+
+}
+
+FOOTER {
+	width: 940px;
+	height: 60px;
+	margin: 5px auto;
+	border: 1px solid #000000;
+	text-align: center;
+	background-color: #228594;
+}
+
+NAV {
+	width: 940px;
+	height: 45px;
+	text-align: center;
+	float: left;
+	font-family: Georgia;
+	border: 4px solid #FFFFFF;
+	background-color: #3a8c88;
+}
+
+NAV ul {
+	margin: 0px auto;
+	padding: 15px;
+	list-style-type: none;
+}
+NAV li {
+	display: inline;
+
+}
+
+NAV li a {
+	float: left;
+	text-align: center;
+	border-right: 2px solid #00DBF0;
+        width: 100px;  
+        font-size: 14px; 
+	padding: 0px 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+NAV li a:hover {
+	color: #00ff00;
+}
+
+SECTION#Wrapper {
+	margin-top: 100px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+
+ARTICLE#Article_1 {
+	width: 900px;
+	height: 500px;
+	background-color: #ADAAAA;
+}
+
+HEADER#Header_Article_1 {
+	width: 900px;
+	height: 60px;
+	background-color: #DCDCDC;
+}
+
+SECTION#Section_Article_1 {
+	width: 850px;
+	height: 400px;
+	margin-top: 20px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #F8EBEB;
+}
+#Button1 {
+
+Height: 30px;
+Width: 180px;
+background-color: #820404;
+font-family: Georgia;
+font-size: 18px;
+color: #FFFFFF;
+
+}
+
